@@ -1,0 +1,35 @@
+.list-container {
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.todo-input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.todo-input-form input{
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width:95%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1),0 1px 1px rgba(0,0,0,0.1);
+}
+.todo-input-form button{
+    padding: 3px;
+    color: 200px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 200px;
+    
+}
